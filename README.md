@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Pokenav App 🕹️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pokenav is an interactive web application that allows users to explore the world of Pokémon. With an intuitive search bar, detailed profiles, and an evolution display, users can easily navigate through their favorite Pokémon and discover new ones.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Table of Contents** 📋
 
-### `npm start`
+1. [Overview](#overview)
+2. [Features](#features)
+   - [Search Bar with Autocomplete](#search-bar-with-autocomplete)
+   - [Pokémon Profile](#pokémon-profile)
+   - [Navigation](#navigation)
+3. [How to Use](#how-to-use)
+4. [Screenshots Overview 🖼](#screenshots-overview-)
+5. [Tech Stack 🛠](#tech-stack-)
+6. [How to Run the App 🚀](#how-to-run-the-app-)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Overview**
+This application provides an interactive way to search for Pokémon, view detailed profiles, and explore their evolutions. It features an autocomplete search bar, clickable profiles, and intuitive navigation, making it a seamless experience for Pokémon fans.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Features**
 
-### `npm run build`
+### **Search Bar with Autocomplete**
+- Begin typing a Pokémon's name in the search bar to see a list of suggestions.
+- Helps quickly locate Pokémon without needing the exact spelling.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Pokémon Profile**
+- Each profile includes:
+  - **Image and Name**
+  - **Navigation Bar** for Info, Skills, and Moves:
+    - **Info:** Displays general information.
+    - **Skills:** Lists the Pokémon's abilities.
+    - **Moves:** Shows moves and evolution details.
+- Clicking on any evolution will navigate to that Pokémon's profile.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Navigation**
+- The app logo and home icon in the header return users to the home page.
+- Profiles include a search bar to quickly navigate to other Pokémon profiles.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **How to Use**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Starting the Search**:
+   - Enter the name of the Pokémon into the search bar on the home page.
+   - Use the autocomplete feature for suggestions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Viewing a Pokémon's Profile**:
+   - Select a Pokémon from the autocomplete suggestions or hit the "Search" button to load its profile page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Exploring the Profile**:
+   - Use the navigation buttons (Info, Skills, Moves) to explore different sections of the profile.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Exploring Evolutions**:
+   - On the Moves page, view the Pokémon's evolutions.
+   - Click on any evolution to navigate to that Pokémon's detailed profile.
 
-## Learn More
+5. **Navigating the App**:
+   - Use the app logo or the home icon to return to the home page.
+   - Use the search bar within profiles to navigate to other Pokémon profiles.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Screenshots Overview 🖼**
 
-### Code Splitting
+### **Home Page**
+![Home Page](public/readme-imgs/pokenav1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **Search View**
+![Search View](public/readme-imgs/pokenavsearch.jpg)
 
-### Analyzing the Bundle Size
+### **Search Result**
+![Search Result](public/readme-imgs/pokenavsearch2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### **Pokémon Info**
+![Pokémon Info](public/readme-imgs/pokemonprofile1.png)
 
-### Making a Progressive Web App
+### **Pokémon Skills**
+![Pokémon Skills](public/readme-imgs/pokemonprofile2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### **Pokémon Moves**
+![Pokémon Moves](public/readme-imgs/pokemonprofile3.png)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## **Tech Stack 🛠**
+- **Frontend:** React (Create React App)
+- **API:** [PokeAPI](https://pokeapi.co)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## **How to Run the App 🚀**
 
-### `npm run build` fails to minify
+1. Clone the repository:
+- git clone https://github.com/obrito00/PokemonApp
+- cd PokemonApp
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Install dependencies:
+npm install
+
+3. Start the App:
+npm start
