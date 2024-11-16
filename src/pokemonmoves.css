@@ -1,0 +1,130 @@
+
+
+.pokemonprofile .moves-group {
+    height: 285px;
+    left: 971px;
+    position: absolute;
+    top: 157px;
+    width: 720px;
+  }
+  
+  .pokemonprofile .overlap-13 {
+    height: 285px;
+    position: relative;
+    width: 718px;
+  }
+  
+  .pokemonprofile .rectangle-18 {
+    background-color: #c4fdc2;
+    border-radius: 19px;
+    box-shadow: inset 0px 4px 4px #00000040;
+    height: 285px;
+    left: 8px;
+    position: absolute;
+    top: 0;
+    width: 710px;
+  }
+  
+  .pokemonprofile .rectangle-19 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px 4px #00000040;
+    height: 251px;
+    left: 8px;
+    position: absolute;
+    top: 21px;
+    width: 710px;
+  }
+  
+  .pokemonprofile .moves-text {
+    color: #000000;
+    font-family: 'VT323', monospace;
+  font-size: 72px;
+    font-weight: 400;
+    left: 110px;
+    letter-spacing: 0;
+    line-height: 0.8;
+    position: absolute;
+    top: 30px;
+    width: 622px;
+  }
+  
+  .pokemonprofile .moves-title {
+    -webkit-text-stroke: 3px #0663b9;
+    color: #f8a72d;
+    font-family: 'VT323', monospace;
+  font-size: 72px;
+    font-weight: 400;
+    left: 1039px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 88px;
+    white-space: nowrap;
+    width: 299px;
+  }
+  
+  .pokemonprofile .evolutions-group {
+    height: 175px;
+    left: 979px;
+    position: absolute;
+    top: 505px;
+    width: 712px;
+  }
+  
+  .pokemonprofile .overlap-14 {
+    background-color: #c4fdc2;
+    border-radius: 12px;
+    box-shadow: inset 0px 4px 4px #00000040;
+    height: 175px;
+    position: relative;
+    width: 710px;
+  }
+  
+  .pokemonprofile .rectangle-20 {
+    background-color: #ffffff;
+    border-radius: 18px;
+    height: 153px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+    width: 710px;
+  }
+  
+  .pokemonprofile .evolutions-text {
+    color: #000000;
+    font-family: 'VT323', monospace;
+    font-size: 72px;
+    font-weight: 400;
+    left: 19px;
+    letter-spacing: 0;
+    line-height: 1;
+    position: absolute;
+    top: 20px;
+    width: 696px;
+  }
+  
+  .pokemonprofile .evolutions-title {
+    -webkit-text-stroke: 3px #0663b9;
+    color: #f8a72d;
+    font-family: 'VT323', monospace;
+  font-size: 72px;
+    font-weight: 400;
+    left: 1033px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 434px;
+    width: 446px;
+  }
+
+  .evolinks {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+
+  .evolinks:hover {
+    color: #f8a72d;
+  }
